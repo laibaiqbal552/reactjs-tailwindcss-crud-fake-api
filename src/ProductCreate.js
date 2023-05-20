@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import {MdArrowBack } from "react-icons/md";
 import { Link } from 'react-router-dom';
 const ProductCreate = ({handleSubmit,title,setTitle,price,setPrice,description,setDescription}) => {
