@@ -74,7 +74,7 @@ const App = () => {
       axios
         .put(`https://fakestoreapi.com/products/${editProductId}`, newProduct)
         .then((response) => {
-          console.log('Product updated successfully.');
+          console.log(response.data,'Product updated successfully.');
           fetchData(); // Refresh the product list after updating
           setNewProduct({ // Reset the form fields after successful update
             title: '',
